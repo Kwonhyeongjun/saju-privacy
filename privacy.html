@@ -13,52 +13,74 @@ th{background:rgba(122,46,30,.08)} a{color:var(--accent)} nav{font-size:.9rem;co
 <nav><a href="index.html">사주작명</a> · <a href="privacy.html">개인정보처리방침 Privacy</a> · <a href="terms.html">이용약관 Terms</a> · <a href="account-deletion.html">계정 삭제 Account deletion</a></nav>
 <p class="lang"><a href="#ko">한국어</a> · <a href="#en">English</a></p><section id="ko" lang="ko"><h1>개인정보처리방침</h1>
 <p>권형준(이하 &quot;운영자&quot;)는 「개인정보 보호법」에 따라 ‘운명키우기’ 앱(이하 &quot;앱&quot;) 이용자의 개인정보를 보호하고, 이와 관련한 고충을 신속하게 처리하기 위하여 다음과 같이 개인정보처리방침을 둡니다.</p>
-<p>시행일: 2026년 9월 28일</p>
-<h2>1. 기본 원칙 — 대부분의 정보는 이용자의 기기에만 저장됩니다</h2>
-<p>앱의 회원 정보, 입력한 사주(생년월일시), 이름 풀이·작명 결과, 수호령 기록, 전자도장 이미지는 <strong>이용자의 휴대전화 안에만 저장</strong>되며 운영자의 서버로 전송되지 않습니다. 운영자는 이 정보를 볼 수 없습니다.</p>
-<p>운영자에게 전달되거나 외부 서비스로 전송되는 정보는 아래 2번에 적은 경우뿐입니다.</p>
-<h2>2. 처리하는 개인정보 항목과 목적</h2>
-<div class="tw"><table><tr><th>구분</th><th>항목</th><th>목적</th><th>저장 위치</th></tr><tr><td>이메일 회원가입</td><td>이메일, 닉네임, 비밀번호(복원할 수 없는 해시값)</td><td>회원 식별·로그인</td><td>이용자 기기</td></tr><tr><td>소셜 로그인(카카오·네이버·구글)</td><td>서비스별 회원 식별값, 닉네임, 이메일(제공에 동의한 경우)</td><td>회원 식별·로그인</td><td>이용자 기기</td></tr><tr><td>사주·이름 서비스</td><td>이름, 생년월일시, 양력·음력, 성별</td><td>만세력·운세·이름 풀이·작명·궁합 계산</td><td>이용자 기기</td></tr><tr><td>AI 상담·AI 아호 추천</td><td>입력한 질문, 사주·이름 풀이 요약(이름, 원국, 오행 등)</td><td>AI 답변 생성</td><td>Google(Gemini API)로 전송</td></tr><tr><td>철학도장 제작 상담 신청</td><td>신청자 이름, 휴대전화 번호, 연락 방법, 요청 사항, 새길 글자, 사주 요약, 재질·형식</td><td>상담 연락, 도장 설계·제작·배송 안내</td><td>운영자 접수 시스템(Google 스프레드시트)</td></tr><tr><td>엽전 충전(Google Play 결제)</td><td>상품 ID, 구매 토큰, 엽전 잔액·열람 기록</td><td>충전·열람권 관리</td><td>이용자 기기 (결제 정보는 Google이 처리)</td></tr><tr><td>AI 답변 신고</td><td>신고 사유, 신고한 AI 답변 내용</td><td>부적절한 AI 답변 확인·개선</td><td>운영자 접수 시스템</td></tr></table></div>
+<p>시행일: 2026년 10월 21일</p>
+<h2>1. 기본 원칙</h2>
 <ul>
-<li>앱은 위치, 연락처, 사진첩 전체, 통화 기록 등에 접근하지 않습니다. 전자도장을 만들 때는 이용자가 직접 고른 이미지 한 장만 읽어 기기 안에서 처리합니다.</li>
+<li><strong>회원으로 로그인하면</strong> 회원 정보, 엽전·열람 기록, 그리고 기기를 바꿔도 이어 쓸 수 있도록 동기화하는 기록(입력한 사주, 이름 풀이·작명·궁합 등 결과를 다시 보기 위한 입력값, 수호령, 아호 결과, AI 상담 대화)이 <strong>운영자가 직접 관리하는 서버(대한민국 소재)</strong> 에 암호화 통신(HTTPS)으로 저장됩니다.</li>
+<li><strong>가입 없이 둘러보기(게스트)</strong> 로 쓰면 위 정보는 이용자의 휴대전화 안에만 저장되고 서버로 보내지 않습니다.</li>
+<li>운영자는 서비스 제공·고객 문의 처리·법령 준수 외의 목적으로 정보를 이용하지 않습니다.</li>
+</ul>
+<h2>2. 처리하는 개인정보 항목과 목적</h2>
+<div class="tw"><table><tr><th>구분</th><th>항목</th><th>목적</th><th>저장 위치</th></tr><tr><td>이메일 회원가입</td><td>이메일, 닉네임, 비밀번호(복원할 수 없는 해시값), 기기 이름</td><td>회원 식별·로그인·본인 확인</td><td>운영자 서버</td></tr><tr><td>소셜 로그인(카카오·네이버·구글)</td><td>서비스별 회원 식별값, 닉네임, 이메일(제공에 동의한 경우)</td><td>회원 식별·로그인</td><td>운영자 서버</td></tr><tr><td>사주·이름 서비스</td><td>이름, 생년월일시, 양력·음력, 성별, 결과를 다시 보기 위한 입력값</td><td>만세력·운세·이름 풀이·작명·궁합 계산, 기기 간 동기화</td><td>회원: 운영자 서버 / 게스트: 이용자 기기</td></tr><tr><td>엽전·유료 서비스</td><td>엽전 잔액·사용 내역, 열람권, Google Play 구매 토큰·주문번호</td><td>충전·사용·환불 처리, 부정 이용 방지</td><td>운영자 서버 (카드 등 결제 정보는 Google이 처리하며 운영자는 받지 않음)</td></tr><tr><td>AI 상담·AI 아호 추천</td><td>입력한 질문, 사주·이름 풀이 요약, 대화 기록</td><td>AI 답변 생성, 대화 기록 보관(이어 보기)</td><td>운영자 서버를 거쳐 Google Gemini API로 전송 (장애 시 OpenAI ChatGPT API)</td></tr><tr><td>철학도장 주문·상담</td><td>신청자 이름, 휴대전화 번호, 연락 방법, 받을 주소, 요청 사항, 새길 글자, 사주 요약, 재질·형식, 운송장 번호</td><td>상담 연락, 도장 설계·제작·택배 발송·배송 조회</td><td>운영자 서버</td></tr><tr><td>철학도장 결제(KG이니시스 카드·토스페이·카카오페이)</td><td>결제 번호·금액·일시·결제 수단 종류, 결제창에 입력한 이름·휴대전화·이메일</td><td>결제 처리·확인·환불</td><td>운영자 서버 (카드 번호·간편결제 계정 정보는 결제대행사·간편결제사가 처리하며 운영자는 받지 않음)</td></tr><tr><td>본인인증(결제 시, 선택)</td><td>이름, 생년월일, 성별, 연계정보(CI)의 복원 불가 해시값</td><td>성인 여부 확인·부정 결제 방지</td><td>운영자 서버</td></tr><tr><td>AI 답변 신고</td><td>신고 사유, 신고한 AI 답변 내용</td><td>부적절한 AI 답변 확인·개선</td><td>운영자 접수 시스템</td></tr><tr><td>서비스 이용 기록</td><td>접속 IP, 접속 일시, 요청 기록</td><td>보안·부정 이용 방지·장애 대응</td><td>운영자 서버</td></tr><tr><td>오류 보고(선택)</td><td>앱이 갑자기 종료됐을 때의 오류 내용(앱 버전·기기 모델·오류 위치). 이름·사주 등 개인정보는 넣지 않음</td><td>오류 원인 확인·수정</td><td>이용자가 [오류 보내기]를 눌러 직접 보낸 이메일로만 받음</td></tr></table></div>
+<ul>
+<li>앱은 위치, 연락처, 사진첩 전체, 통화 기록 등에 접근하지 않습니다.</li>
 <li>앱은 광고 식별자를 수집하지 않으며, 광고·분석 SDK를 사용하지 않습니다.</li>
+<li>휴대전화의 Google 백업이 켜져 있으면, 기기에 저장된 앱 데이터(게스트 기록 등)가 Android 자동 백업으로 이용자 본인의 Google 계정에 보관될 수 있습니다. 이 백업은 운영자가 볼 수 없습니다.</li>
+<li>AI 상담에 건강·질병 등 민감한 정보나 주민등록번호·연락처를 입력하지 마세요.</li>
 </ul>
 <h2>3. 보유 및 이용 기간</h2>
 <ul>
-<li><strong>기기에 저장된 정보</strong>: 이용자가 회원 탈퇴하거나 앱을 삭제하면 즉시 삭제됩니다.</li>
-<li><strong>철학도장 상담 신청 정보</strong>: 상담·제작·배송이 끝난 날부터 1년간 보관한 뒤 파기합니다. 다만 「전자상거래 등에서의 소비자보호에 관한 법률」에 따라 계약·대금결제·재화 공급 기록은 5년, 소비자 불만·분쟁 처리 기록은 3년간 보관합니다.</li>
+<li><strong>회원 정보·동기화 기록·엽전 잔액</strong>: 회원 탈퇴 시 즉시 삭제합니다. 서버 백업본에는 최대 30일간 남아 있다가 자동으로 지워집니다.</li>
+<li><strong>결제 기록(주문번호·금액·일시)</strong>: 「전자상거래 등에서의 소비자보호에 관한 법률」 제6조에 따라 5년간 보관하며, 탈퇴 시 회원과의 연결은 끊습니다.</li>
+<li><strong>접속 기록</strong>: 보안을 위해 최대 1년간 보관한 뒤 파기합니다.</li>
+<li><strong>AI 사용 기록(이용 횟수·시각)</strong>: 180일간 보관한 뒤 파기합니다.</li>
+<li><strong>게스트로 기기에 저장된 정보</strong>: 앱을 삭제하거나 [이 기기의 기록 모두 지우기]를 누르면 즉시 삭제됩니다.</li>
+<li><strong>철학도장 상담 신청 정보</strong>: 상담·제작·배송이 끝난 날부터 1년간 보관한 뒤 파기합니다. 다만 계약·대금결제·재화 공급 기록은 5년, 소비자 불만·분쟁 처리 기록은 3년간 보관합니다.</li>
 <li><strong>AI 답변 신고 정보</strong>: 처리 완료 후 1년간 보관한 뒤 파기합니다.</li>
-<li><strong>Google(Gemini API)로 전송된 정보</strong>: Google의 Gemini API 추가 서비스 약관 및 개인정보처리방침에 따라 처리됩니다. 무료 이용 등급에서는 Google이 서비스 개선을 위해 입력 내용을 사용할 수 있으므로, AI 상담에 주민등록번호·연락처 같은 민감한 정보를 입력하지 마세요.</li>
+<li><strong>OpenAI·Google(AI)로 전송된 정보</strong>: 각 회사의 API 약관 및 개인정보처리방침에 따라 처리됩니다. (API로 보낸 내용은 모델 학습에 쓰지 않는 조건으로 이용합니다)</li>
+<li><strong>철학도장 카드 결제·본인인증 기록</strong>: 「전자상거래법」에 따라 대금결제 기록은 5년간 보관합니다.</li>
 </ul>
 <h2>4. 개인정보의 제3자 제공</h2>
 <p>운영자는 이용자의 개인정보를 제3자에게 판매하거나 제공하지 않습니다. 다만 법령에 따라 수사기관 등이 요구하는 경우에는 예외로 합니다.</p>
 <h2>5. 개인정보 처리의 위탁 및 국외 이전</h2>
 <p>앱의 기능을 제공하기 위해 다음 서비스를 이용합니다.</p>
-<div class="tw"><table><tr><th>받는 자</th><th>국가</th><th>이전 항목</th><th>목적</th><th>이전 시점·방법</th><th>보유 기간</th></tr><tr><td>Google LLC (Gemini API)</td><td>미국</td><td>AI 상담 질문, 사주·이름 요약</td><td>AI 답변 생성</td><td>AI 상담을 이용할 때 암호화 통신(HTTPS)으로 전송</td><td>Google 정책에 따름</td></tr><tr><td>Google LLC (Google 스프레드시트·Apps Script)</td><td>미국</td><td>철학도장 상담 신청 정보, AI 답변 신고</td><td>상담 접수·관리</td><td>신청·신고할 때 HTTPS로 전송</td><td>3번의 기간</td></tr><tr><td>Google LLC (Google Play 결제)</td><td>미국</td><td>결제 정보(카드 등) — 앱은 받지 않음</td><td>엽전 결제 처리</td><td>충전할 때 Google Play가 직접 처리</td><td>Google 정책에 따름</td></tr><tr><td>Google LLC (Google 로그인)</td><td>미국</td><td>Google 계정 식별값, 이름, 이메일</td><td>로그인</td><td>Google 로그인을 고를 때</td><td>로그인 연동 해제 시까지</td></tr><tr><td>(주)카카오</td><td>대한민국</td><td>카카오 회원 식별값, 닉네임, 이메일</td><td>로그인</td><td>카카오 로그인을 고를 때</td><td>연결 끊기 시까지</td></tr><tr><td>네이버(주)</td><td>대한민국</td><td>네이버 회원 식별값, 닉네임, 이메일</td><td>로그인</td><td>네이버 로그인을 고를 때</td><td>연동 해제 시까지</td></tr></table></div>
-<p>국외 이전을 원하지 않으면 AI 상담과 Google 로그인을 이용하지 않으면 됩니다. 이 경우에도 만세력·이름 풀이·작명 등 나머지 기능은 모두 쓸 수 있습니다.</p>
+<div class="tw"><table><tr><th>받는 자</th><th>국가</th><th>이전 항목</th><th>목적</th><th>이전 시점·방법</th><th>보유 기간</th></tr><tr><td>OpenAI, L.L.C. (ChatGPT API, 예비)</td><td>미국</td><td>AI 상담 질문, 사주·이름 요약</td><td>Gemini 장애 시 AI 답변 생성</td><td>AI 상담을 이용할 때 운영자 서버에서 HTTPS로 전송</td><td>OpenAI 정책에 따름(API 데이터 최대 30일 보관)</td></tr><tr><td>Google LLC (Gemini API)</td><td>미국</td><td>AI 상담 질문, 사주·이름 요약</td><td>AI 답변 생성</td><td>같음</td><td>Google 정책에 따름</td></tr><tr><td>(주)코리아포트원 · (주)케이지이니시스</td><td>대한민국</td><td>결제·본인인증 정보</td><td>철학도장 카드 결제·본인인증</td><td>결제·인증할 때</td><td>관계 법령에 따름</td></tr><tr><td>(주)비바리퍼블리카(토스페이) · (주)카카오페이</td><td>대한민국</td><td>결제 번호·금액, 간편결제 계정 확인 정보</td><td>이용자가 고른 간편결제로 철학도장 결제</td><td>그 간편결제를 고를 때</td><td>관계 법령에 따름</td></tr><tr><td>택배사(CJ대한통운·우체국 등)</td><td>대한민국</td><td>받는 분 이름·주소·연락처</td><td>철학도장 배송</td><td>발송할 때</td><td>배송 완료 후 택배사 정책에 따름</td></tr><tr><td>Google LLC (Google Play 결제·결제 확인)</td><td>미국</td><td>구매 토큰·주문번호(카드 등 결제 정보는 앱·운영자가 받지 않음)</td><td>결제 처리·결제 확인·환불 처리</td><td>충전할 때</td><td>Google 정책에 따름</td></tr><tr><td>Google LLC (Google 로그인)</td><td>미국</td><td>Google 계정 식별값, 이름, 이메일</td><td>로그인</td><td>Google 로그인을 고를 때</td><td>로그인 연동 해제 시까지</td></tr><tr><td>Google LLC (스프레드시트·Apps Script)</td><td>미국</td><td>철학도장 상담 신청 정보, AI 답변 신고</td><td>상담 접수·관리</td><td>신청·신고할 때 HTTPS로 전송</td><td>3번의 기간</td></tr><tr><td>Tailscale Inc.</td><td>미국</td><td>접속 중계에 필요한 통신 정보(내용은 암호화되어 열람 불가)</td><td>운영자 서버로의 안전한 접속 중계</td><td>앱이 서버와 통신할 때</td><td>저장하지 않음</td></tr><tr><td>(주)카카오</td><td>대한민국</td><td>카카오 회원 식별값, 닉네임, 이메일</td><td>로그인</td><td>카카오 로그인을 고를 때</td><td>연결 끊기 시까지</td></tr><tr><td>네이버(주)</td><td>대한민국</td><td>네이버 회원 식별값, 닉네임, 이메일</td><td>로그인</td><td>네이버 로그인을 고를 때</td><td>연동 해제 시까지</td></tr></table></div>
+<p>국외 이전을 원하지 않으면 AI 상담과 Google 로그인을 이용하지 않거나, 가입 없이 둘러보기로 이용할 수 있습니다.</p>
 <h2>6. 개인정보의 파기</h2>
 <ul>
-<li>기기에 저장된 정보는 앱의 [내정보 → 회원 탈퇴]를 누르면 계정, 사주, 이름 풀이 결과, 수호령, 도장 기록, 전자도장 이미지가 모두 지워지고 소셜 로그인 연결도 해제됩니다.</li>
+<li>앱의 [내정보 → 회원 탈퇴]를 누르면 서버와 기기의 계정, 사주, 이름 풀이 기록, 수호령, 엽전·열람권, AI 상담 기록이 즉시 지워지고 소셜 로그인 연결도 해제됩니다(서버 백업본은 30일 안에 자동 삭제).</li>
+<li>앱을 쓸 수 없는 경우 웹페이지(<a href="https://hj-desktop.tail46d508.ts.net/account/delete">https://hj-desktop.tail46d508.ts.net/account/delete</a>)에서 삭제를 요청할 수 있습니다.</li>
 <li>운영자가 보관하는 상담 신청 정보는 보유 기간이 끝나면 스프레드시트에서 되살릴 수 없게 삭제합니다.</li>
 </ul>
 <h2>7. 이용자의 권리와 행사 방법</h2>
 <p>이용자는 언제든지 자신의 개인정보를 열람·정정·삭제하거나 처리 정지를 요구할 수 있습니다.</p>
 <ul>
-<li>기기에 저장된 정보: 앱 안에서 직접 수정·삭제하거나 회원 탈퇴로 모두 지울 수 있습니다.</li>
+<li>회원 정보·기록: 앱 안에서 직접 수정·삭제하거나 회원 탈퇴로 모두 지울 수 있고, 위 삭제 요청 웹페이지나 아래 이메일로도 요청할 수 있습니다.</li>
 <li>상담 신청 정보: 아래 개인정보 보호책임자에게 이메일로 요청하면 지체 없이 처리합니다.</li>
 </ul>
 <h2>8. 만 14세 미만 아동</h2>
-<p>앱은 만 14세 미만 아동의 회원가입을 받지 않습니다. 만 14세 미만 아동의 개인정보가 수집된 사실을 알게 되면 즉시 삭제합니다.</p>
+<p>앱은 만 14세 미만 아동의 회원가입을 받지 않으며, 회원가입 때 만 14세 이상임을 확인합니다. 만 14세 미만 아동은 회원가입·결제·AI 상담 없이 둘러보기로만 이용해 주세요. 만 14세 미만 아동의 개인정보가 법정대리인 동의 없이 수집된 사실을 알게 되면 즉시 삭제합니다.</p>
+<h2>8의2. 가명정보의 처리</h2>
+<p>운영자는 작명 상담 업무로 보유한 감정 기록을 이름·연락처·생년월일 등 개인을 알아볼 수 있는 정보를 없앤 가명정보로 바꾸어, 통계 작성과 서비스 개선(오행 판단 기준·이름 한자 통계 연구)에만 이용합니다. 앱에는 개인을 알아볼 수 없는 통계값(판단 가중치·글자별 사용 횟수)만 담기며, 재식별에 쓰일 수 있는 추가 정보는 분리하여 접근을 제한해 보관합니다. 「개인정보 보호법」 제28조의2·제28조의4에 따라 가명정보 처리 기록을 작성·보관합니다.</p>
 <h2>9. 개인정보의 안전성 확보 조치</h2>
 <ul>
-<li>비밀번호는 원문을 저장하지 않고 PBKDF2-HMAC-SHA256(솔트, 12만 회)으로 변환한 값만 기기에 저장합니다.</li>
-<li>외부로 보내는 모든 정보는 암호화 통신(HTTPS)으로 전송합니다.</li>
-<li>상담 신청 정보는 운영자만 접근할 수 있는 스프레드시트에 보관합니다.</li>
+<li>비밀번호는 원문을 저장하지 않고 복원할 수 없는 해시값(scrypt)으로만 저장합니다.</li>
+<li>앱과 서버 사이의 모든 통신은 암호화(HTTPS)됩니다. 로그인 토큰은 짧은 유효기간을 두고, 이상 사용이 감지되면 모든 로그인을 끊습니다.</li>
+<li>서버는 외부에서 직접 접속할 수 없게 막고, 관리 화면은 운영자만 긴 무작위 비밀값으로 접속할 수 있습니다. 관리 작업은 기록으로 남깁니다.</li>
+<li>데이터베이스는 매일 백업하고 30일 지난 백업은 자동 삭제합니다.</li>
+<li>상담 신청 정보는 운영자만 접근할 수 있는 시스템에 보관합니다.</li>
 </ul>
 <h2>10. 개인정보 보호책임자</h2>
 <ul>
 <li>개인정보 보호책임자: 권형준</li>
 <li>이메일: hj4455117@naver.com</li>
+</ul>
+<p>사업자 정보</p>
+<ul>
+<li>상호: 권형준</li>
+<li>대표자: 권형준</li>
+<li>이메일: hj4455117@naver.com</li>
+<li>사업자등록번호·통신판매업 신고번호는 등록 절차 중이며, 등록되는 대로 이곳에 표시합니다.</li>
 </ul>
 <p>개인정보 침해에 대한 신고·상담은 아래 기관에도 문의할 수 있습니다.</p>
 <ul>
@@ -67,59 +89,78 @@ th{background:rgba(122,46,30,.08)} a{color:var(--accent)} nav{font-size:.9rem;co
 </ul>
 <h2>11. 개인정보처리방침의 변경</h2>
 <p>이 방침이 바뀌면 앱 안 공지 또는 이 페이지를 통해 시행 7일 전에 알립니다.</p></section><hr><section id="en" lang="en"><h1>Privacy Policy</h1>
-<p>권형준 (&quot;the Operator&quot;) establishes this Privacy Policy for the &quot;운명키우기 (Fate Growing)&quot; app (&quot;the App&quot;) in accordance with the Personal Information Protection Act of the Republic of Korea.</p>
-<p>Effective date: September 28, 2026</p>
-<h2>1. Basic principle — most data stays on your device</h2>
-<p>Your account information, the birth data (date and time of birth) you enter, name-analysis and naming results, guardian-character records and digital seal images are <strong>stored only on your phone</strong> and are never sent to the Operator&#x27;s servers. The Operator cannot see this data.</p>
-<p>Data leaves your device only in the cases listed in Section 2.</p>
-<h2>2. Personal data processed and purposes</h2>
-<div class="tw"><table><tr><th>Category</th><th>Items</th><th>Purpose</th><th>Where stored</th></tr><tr><td>Email sign-up</td><td>Email, nickname, password (irreversible hash only)</td><td>Identifying the user, login</td><td>Your device</td></tr><tr><td>Social login (Kakao, Naver, Google)</td><td>Account identifier, nickname, email (if you consent)</td><td>Identifying the user, login</td><td>Your device</td></tr><tr><td>Saju and name features</td><td>Name, date and time of birth, solar/lunar calendar, gender</td><td>Calculating the Four Pillars, fortune, name analysis, naming, compatibility</td><td>Your device</td></tr><tr><td>AI consultation and AI pen-name suggestions</td><td>Your question and a summary of the saju/name analysis (name, pillars, five elements, etc.)</td><td>Generating AI answers</td><td>Sent to Google (Gemini API)</td></tr><tr><td>Philosophy-seal consultation request</td><td>Applicant name, mobile number, preferred contact method, requests, characters to engrave, saju summary, chosen material</td><td>Contacting you, designing, making and shipping the seal</td><td>Operator&#x27;s intake sheet (Google Sheets)</td></tr><tr><td>Buying Yeopjeon (Google Play Billing)</td><td>Product ID, purchase token, coin balance and unlock records</td><td>Managing coins and unlocks</td><td>Your device (payment details are processed by Google)</td></tr><tr><td>Reporting an AI answer</td><td>Reason for the report, the reported AI answer</td><td>Reviewing and improving inappropriate AI answers</td><td>Operator&#x27;s intake sheet</td></tr></table></div>
+<p>This policy explains how 권형준 (the “Operator”) handles your information in the app “Eastern Personality &amp; Philosophy Reading” (published on Google Play as 운명키우기, package kr.hanja.saju). It follows the Korean Personal Information Protection Act and, for users in the EU/EEA and UK, the GDPR.</p>
+<p>Effective date: October 21, 2026</p>
+<h2>1. Basic principle</h2>
 <ul>
-<li>The App does not access your location, contacts, full photo library or call log. To make a digital seal, it reads only the single image you choose and processes it on the device.</li>
-<li>The App does not collect advertising IDs and does not use advertising or analytics SDKs.</li>
+<li><strong>Signed in:</strong> your account details, coin balance and unlocks, and the data kept in sync across devices (birth data, saved people, buddy progress, AI coach chats) are stored on a server the Operator runs itself in the Republic of Korea, sent over encrypted HTTPS.</li>
+<li><strong>Without an account (browsing):</strong> this data stays on your phone. Some features still need our server to work. These include the AI coach, the Korean name writer, celebrity search, chemistry invite links and seal orders. When you use one of them, only what that feature needs is sent (see section 2).</li>
+<li><strong>Purchases need an account.</strong> To buy coins or a subscription you sign in (Google or email), so your purchases are kept safe on your account and are not lost if you change phones.</li>
+<li>The Operator uses your data only to provide the service, answer support requests and comply with the law. We never sell it.</li>
 </ul>
-<h2>3. Retention period</h2>
+<h2>2. What is processed and why</h2>
+<div class="tw"><table><tr><th>Data</th><th>Purpose</th><th>Where it goes</th></tr><tr><td>Account: email, nickname, password (as an irreversible hash) or Google account ID, name and email</td><td>Sign-in and identifying your account</td><td>Operator’s server (Korea); Google sign-in via Google LLC (USA)</td></tr><tr><td>Name or nickname, birth date and time, birthplace, gender, saved people</td><td>Calculating your chart, personality type, compatibility; sync between devices</td><td>Signed in: Operator’s server · Without account: your device only</td></tr><tr><td>Coins and subscription: product ID, Google Play purchase token and order ID, coin balance and history, unlocks</td><td>Adding coins, unlocking readings, refunds, fraud prevention</td><td>Operator’s server. Card details are handled only by Google Play and never reach us</td></tr><tr><td>AI coach and AI suggestions: your question, a short summary of your chart, chat history</td><td>Generating the answer; keeping your chat history (signed in)</td><td>Sent through our server to Google (Gemini API) or OpenAI (ChatGPT API) in the USA</td></tr><tr><td>Korean name writer: the name you type (only when you tap “Write it in Hangul”)</td><td>Writing your name in Korean letters</td><td>Sent through our server to Google (Gemini API) or OpenAI in the USA</td></tr><tr><td>Celebrity search: the search words you type</td><td>Finding a public figure’s name and birth date in Wikidata, a free public database</td><td>Sent through our server to the Wikimedia Foundation (USA). Results are kept in our server’s memory for up to 1 day; your identity is not sent</td></tr><tr><td>Chemistry invite link: your nickname and your energy values (day element, element balance), but <strong>not</strong> your birth date</td><td>Showing the chemistry result to the friend who opens the link</td><td>Operator’s server for up to 30 days, or until you remove the invite (✕)</td></tr><tr><td>Seal order: name, email, phone, messenger ID, shipping address, country, text to engrave, material, requests, short chart summary</td><td>Payment, carving, shipping, support</td><td>Operator’s order system (Google Sheets / Apps Script, Google LLC, USA); payment by PayPal; name, address and phone on the Korea Post label</td></tr><tr><td>AI answer report: the reason and the reported answer</td><td>Reviewing and improving AI answers</td><td>Operator’s order system (Google Sheets / Apps Script, USA)</td></tr><tr><td>Crash report (optional): app version, device model and where the error happened; no names or birth data</td><td>Fixing the crash</td><td>Only if you tap “Send report”, which opens your email app; we receive it by email</td></tr><tr><td>Access logs: IP address, time, request</td><td>Security, fraud prevention, fixing outages</td><td>Operator’s server</td></tr></table></div>
 <ul>
-<li><strong>Data on your device</strong>: deleted immediately when you delete your account or uninstall the App.</li>
-<li><strong>Seal consultation requests</strong>: kept for 1 year after the consultation, production and delivery are complete, then destroyed. Records required by the Act on the Consumer Protection in Electronic Commerce are kept for the legally required period (contracts and payments: 5 years; complaints and disputes: 3 years).</li>
-<li><strong>AI answer reports</strong>: kept for 1 year after handling, then destroyed.</li>
-<li><strong>Data sent to Google (Gemini API)</strong>: processed under Google&#x27;s Gemini API Additional Terms of Service and Privacy Policy. On the free tier Google may use inputs to improve its services, so please do not enter sensitive information such as ID numbers or phone numbers in the AI consultation.</li>
+<li>The app does not access your location, contacts, photo library or call logs.</li>
+<li>The app does not use advertising IDs, ad SDKs or analytics SDKs.</li>
+<li>If Google backup is on, your phone may back up the app’s on-device data (for example your data from browsing without an account) to <strong>your own</strong> Google account with Android Auto Backup. The Operator cannot see this backup.</li>
+<li>Please do not type sensitive information (health details, ID numbers, contact details) into the AI coach.</li>
 </ul>
-<h2>4. Provision to third parties</h2>
-<p>The Operator does not sell or provide your personal data to third parties, except where required by law (for example, a request from an investigative authority).</p>
-<h2>5. Processors and international transfer</h2>
-<p>The App uses the following services to provide its features.</p>
-<div class="tw"><table><tr><th>Recipient</th><th>Country</th><th>Items transferred</th><th>Purpose</th><th>When and how</th><th>Retention</th></tr><tr><td>Google LLC (Gemini API)</td><td>USA</td><td>AI question, saju/name summary</td><td>Generating AI answers</td><td>When you use AI consultation, over encrypted HTTPS</td><td>Per Google&#x27;s policy</td></tr><tr><td>Google LLC (Google Sheets / Apps Script)</td><td>USA</td><td>Seal consultation requests, AI answer reports</td><td>Intake and management</td><td>When you submit a request or report, over HTTPS</td><td>As in Section 3</td></tr><tr><td>Google LLC (Google Play Billing)</td><td>USA</td><td>Payment details (card, etc.) — not received by the App</td><td>Processing Yeopjeon purchases</td><td>Handled directly by Google Play at purchase</td><td>Per Google&#x27;s policy</td></tr><tr><td>Google LLC (Google Sign-In)</td><td>USA</td><td>Google account identifier, name, email</td><td>Login</td><td>When you choose Google login</td><td>Until you unlink</td></tr><tr><td>Kakao Corp.</td><td>Korea</td><td>Kakao account identifier, nickname, email</td><td>Login</td><td>When you choose Kakao login</td><td>Until you unlink</td></tr><tr><td>NAVER Corp.</td><td>Korea</td><td>Naver account identifier, nickname, email</td><td>Login</td><td>When you choose Naver login</td><td>Until you unlink</td></tr></table></div>
-<p>If you do not want your data transferred abroad, simply do not use the AI consultation or Google login. All other features (Four Pillars calendar, name analysis, naming, etc.) remain available.</p>
-<h2>6. Destruction of personal data</h2>
+<h2>3. Legal bases (EU/UK GDPR, Art. 6)</h2>
 <ul>
-<li>Tapping [My info → Delete account] in the App deletes your account, saju records, name-analysis results, guardian character, seal records and digital seal images, and unlinks social logins.</li>
-<li>Consultation data kept by the Operator is deleted from the spreadsheet irrecoverably when its retention period ends.</li>
+<li><strong>Contract (Art. 6(1)(b)):</strong> your account, coins, purchases, sync, seal orders, and the features you ask for, including the AI coach, name writer, celebrity search and invites.</li>
+<li><strong>Legitimate interests (Art. 6(1)(f)):</strong> security, fraud prevention, access logs and handling AI answer reports.</li>
+<li><strong>Legal obligation (Art. 6(1)(c)):</strong> keeping payment records as required by law.</li>
+<li><strong>Consent (Art. 6(1)(a)):</strong> optional crash reports you choose to send.</li>
 </ul>
+<h2>4. Retention</h2>
+<ul>
+<li><strong>Account, synced data, coin balance:</strong> deleted immediately when you delete your account. Server backups are erased automatically within 30 days.</li>
+<li><strong>Payment records</strong> (order ID, amount, date): kept for 5 years as Korean e-commerce law requires, unlinked from your account after deletion.</li>
+<li><strong>Access logs:</strong> up to 1 year. <strong>AI usage counts</strong> (number and time of uses): 180 days.</li>
+<li><strong>Invite links:</strong> up to 30 days. <strong>Celebrity search cache:</strong> up to 1 day.</li>
+<li><strong>Seal orders:</strong> 1 year after delivery. Contract and payment records are kept for 5 years, and complaint and dispute records for 3 years.</li>
+<li><strong>AI answer reports:</strong> 1 year after they are handled.</li>
+<li><strong>On-device data:</strong> deleted when you tap <strong>Me → Delete all my data</strong> or uninstall the app.</li>
+<li><strong>AI providers:</strong> data sent to the Gemini or OpenAI API is processed under their API terms. API data is not used to train their models, and OpenAI keeps API data for up to 30 days.</li>
+</ul>
+<h2>5. Service providers and international transfers</h2>
+<div class="tw"><table><tr><th>Recipient</th><th>Country</th><th>Data</th><th>Purpose</th></tr><tr><td>Google LLC (Gemini API)</td><td>USA</td><td>AI question, chart or name summary</td><td>AI answers (main provider)</td></tr><tr><td>OpenAI, L.L.C. (ChatGPT API)</td><td>USA</td><td>Same</td><td>AI answers (backup when Gemini fails)</td></tr><tr><td>Wikimedia Foundation (Wikidata)</td><td>USA</td><td>Search words only</td><td>Celebrity search</td></tr><tr><td>Google LLC (Google Play Billing, Google sign-in)</td><td>USA</td><td>Purchase token, order ID; Google account ID, name, email</td><td>Payments, refunds, sign-in</td></tr><tr><td>Google LLC (Sheets / Apps Script)</td><td>USA</td><td>Seal order details, AI answer reports</td><td>Managing orders and reports</td></tr><tr><td>PayPal Pte. Ltd. / PayPal, Inc.</td><td>Singapore / USA</td><td>Seal payment details</td><td>Seal payments (your card details go to PayPal, not to us)</td></tr><tr><td>Korea Post</td><td>Korea and destination country</td><td>Recipient name, address, phone</td><td>Delivering seals</td></tr><tr><td>Tailscale Inc.</td><td>USA</td><td>Connection data only (content is encrypted and cannot be read)</td><td>Secure connection to our server</td></tr></table></div>
+<p>Transfers to the Republic of Korea are covered by the EU adequacy decision (2021) and the UK adequacy regulations (2022). Transfers to the USA rely on the EU–US Data Privacy Framework (and its UK extension) where the recipient is certified, and on Standard Contractual Clauses otherwise.</p>
+<p>If you do not want your data transferred abroad, you can skip the features that need it: the AI coach, the name writer, celebrity search and seal orders. Readings, compatibility and your saved profiles keep working.</p>
+<h2>6. Sharing</h2>
+<p>The Operator does not sell or share your personal information with third parties. The only exceptions are the service providers above, and authorities when the law requires it.</p>
 <h2>7. Your rights</h2>
-<p>You may at any time request access to, correction or deletion of your personal data, or suspension of its processing.</p>
+<p>You can access, correct, delete, restrict or object to the processing of your data, ask for a copy (data portability), and withdraw consent at any time.</p>
 <ul>
-<li>Data on your device: edit or delete it directly in the App, or delete everything by deleting your account.</li>
-<li>Consultation data: email the Privacy Officer below and it will be handled without delay.</li>
+<li><strong>In the app:</strong> edit or delete your data, or go to <strong>Me → Delete account</strong> to remove your account and everything synced.</li>
+<li><strong>On the web:</strong> if you can’t use the app, request deletion at <a href="https://hj-desktop.tail46d508.ts.net/account/delete">https://hj-desktop.tail46d508.ts.net/account/delete</a></li>
+<li><strong>By email:</strong> contact us at the address below, including for seal orders. We reply without undue delay, within one month at most.</li>
+<li><strong>Complaints:</strong> EU/EEA and UK users may complain to their local data protection authority.</li>
 </ul>
-<h2>8. Children under 14</h2>
-<p>The App does not accept sign-ups from children under 14. If we learn that personal data of a child under 14 has been collected, it will be deleted immediately.</p>
-<h2>9. Security measures</h2>
+<h2>8. Children</h2>
+<p>The app does not knowingly collect personal data from children under 13 (under 16 in the EU/EEA, unless a parent or guardian consents). Signing in, purchases and the AI coach are for people aged 13 or over (16 or over in the EU/EEA without parental consent). Younger users can browse readings without an account. If we learn that we hold a child’s data without the required consent, we delete it promptly.</p>
+<h2>9. Security</h2>
 <ul>
-<li>Passwords are never stored in plain text; only a PBKDF2-HMAC-SHA256 hash (salted, 120,000 iterations) is stored on the device.</li>
-<li>All data sent off the device is transmitted over encrypted HTTPS.</li>
-<li>Consultation data is kept in a spreadsheet accessible only to the Operator.</li>
+<li>Passwords are stored only as irreversible hashes (scrypt).</li>
+<li>All traffic between the app and our server is encrypted (HTTPS).</li>
+<li>Sign-in tokens expire quickly, and all sessions are ended if misuse is detected.</li>
+<li>The server cannot be reached directly from the internet. Only the Operator can use the admin tools, and admin actions are logged.</li>
+<li>The database is backed up daily, and backups older than 30 days are deleted.</li>
+<li>Data on your device is protected by Android’s app sandbox.</li>
 </ul>
-<h2>10. Privacy Officer</h2>
+<h2>10. Contact and controller</h2>
 <ul>
-<li>Privacy Officer: 권형준</li>
+<li>Controller / privacy officer: 권형준</li>
 <li>Email: hj4455117@naver.com</li>
 </ul>
-<p>You may also contact the following Korean authorities about privacy infringements:</p>
+<p>Business details</p>
 <ul>
-<li>Personal Information Infringement Report Center (privacy.kisa.or.kr / call 118 in Korea)</li>
-<li>Personal Information Dispute Mediation Committee (www.kopico.go.kr / 1833-6972)</li>
+<li>Business name: 권형준</li>
+<li>Representative: 권형준</li>
+<li>Email: hj4455117@naver.com</li>
+<li>Business registration details are being filed and will be shown here once issued.</li>
 </ul>
-<h2>11. Changes to this policy</h2>
-<p>If this policy changes, we will notify you in the App or on this page 7 days before the change takes effect.</p></section>
+<h2>11. Changes</h2>
+<p>We announce changes to this policy in the app or on this page at least 7 days before they take effect.</p></section>
 </main></body></html>
